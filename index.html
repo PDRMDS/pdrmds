@@ -6,138 +6,142 @@
     
     <meta name="google-site-verification" content="jGOleaF1N97yyM0Uirw1dhLz5TngoeA2DOC0k9fOT6s" />
 
-    <title>PDRMDS | Investigaciones, Negocios y Contenido Multimedia</title>
-    <meta name="description" content="Portal oficial de PDRMDS liderado por Pedro. Investigaciones de negocios y creación de videos profesionales.">
-    <meta name="author" content="PDRMDS">
-
+    <title>PDRMDS | Inteligencia de Negocios e Innovación Multimedia</title>
+    <meta name="description" content="Consultoría líder en transformación digital, investigaciones de mercado y producción visual dinámica dirigida por Pedro.">
+    
     <style>
         :root {
             --primario: #6366f1;
             --oscuro: #0f172a;
             --dorado: #fbbf24;
             --blanco: #ffffff;
-            --gris-fondo: #f8fafc;
+            --gris-suave: #f8fafc;
+            --texto-suave: #475569;
         }
 
         body {
             margin: 0;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background-color: var(--gris-fondo);
+            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+            background-color: var(--gris-suave);
             color: var(--oscuro);
             line-height: 1.6;
         }
 
         nav {
             background: var(--oscuro);
-            padding: 1rem 5%;
+            padding: 1.2rem 5%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             position: sticky;
             top: 0;
             z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
-        .logo { color: var(--blanco); font-size: 1.8rem; font-weight: 800; letter-spacing: 3px; }
+        .logo { color: var(--blanco); font-size: 1.6rem; font-weight: 800; letter-spacing: 2px; text-decoration: none; }
         .logo span { color: var(--primario); }
 
         .hero {
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: var(--blanco);
-            padding: 80px 20px;
+            padding: 100px 20px;
             text-align: center;
         }
 
-        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; color: #94a3b8; max-width: 700px; margin: 0 auto; }
+
+        .container { max-width: 1100px; margin: -50px auto 40px; padding: 0 20px; }
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
         }
 
         .card {
             background: var(--blanco);
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-            border-bottom: 4px solid var(--primario);
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            border-top: 5px solid var(--primario);
         }
 
-        .contacto-box {
-            background: var(--oscuro);
-            color: white;
+        .card:hover { transform: translateY(-10px); }
+
+        .tag { color: var(--primario); font-weight: bold; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
+
+        .featured-section {
+            background: white;
             padding: 50px;
             border-radius: 20px;
-            margin-top: 80px;
-            text-align: center;
+            margin-top: 60px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
         }
 
-        input, textarea {
-            width: 100%;
-            padding: 12px;
-            margin: 10px 0;
-            border-radius: 8px;
-            background: #1e293b;
+        .featured-section h2 { border-left: 5px solid var(--dorado); padding-left: 20px; }
+
+        .cta-whatsapp {
+            background: #25D366;
             color: white;
-            border: none;
-        }
-
-        .btn-enviar {
-            background: var(--dorado);
-            color: var(--oscuro);
             padding: 15px 30px;
-            border: none;
-            border-radius: 8px;
+            text-decoration: none;
+            border-radius: 50px;
             font-weight: bold;
-            cursor: pointer;
-            width: 100%;
+            display: inline-block;
+            margin-top: 20px;
         }
 
-        footer { text-align: center; padding: 60px; color: #64748b; }
+        footer { text-align: center; padding: 80px 20px; color: #64748b; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
     <nav>
-        <div class="logo">PDR<span>MDS</span></div>
-        <div style="color: #94a3b8; font-weight: bold;">Business & Research</div>
+        <a href="#" class="logo">PDR<span>MDS</span></a>
+        <div style="color: var(--dorado); font-size: 0.8rem; font-weight: bold;">ESTRATEGIA & INNOVACIÓN</div>
     </nav>
 
     <header class="hero">
-        <h1>PDRMDS: Impulsando el Futuro</h1>
-        <p>Investigaciones de alto impacto y soluciones visuales por Pedro.</p>
+        <h1>Transformando Visiones en Activos Digitales</h1>
+        <p>Soluciones de inteligencia de negocios e ingeniería visual aplicada al crecimiento corporativo.</p>
     </header>
 
     <div class="container">
         <div class="grid">
             <div class="card">
-                <h3>Estrategia de Negocios</h3>
-                <p>Consultoría especializada para empresas modernas.</p>
+                <div class="tag">Consultoría</div>
+                <h3>Inteligencia de Negocios</h3>
+                <p>Análisis estratégico de mercados y optimización de modelos operativos. Ayudamos a las empresas a navegar la transformación digital mediante decisiones basadas en datos.</p>
             </div>
+            
             <div class="card">
-                <h3>Investigación</h3>
-                <p>Análisis técnico y descubrimiento de nuevas tendencias.</p>
+                <div class="tag">Investigación</div>
+                <h3>Innovación Tecnológica</h3>
+                <p>Exploración profunda en tendencias de IA y automatización. Publicamos reportes técnicos que analizan el impacto de las nuevas tecnologías en la escalabilidad.</p>
             </div>
+
             <div class="card">
-                <h3>Video Multimedia</h3>
-                <p>Creación de videos dinámicos a partir de imágenes estáticas.</p>
+                <div class="tag">Multimedia</div>
+                <h3>Producción Visual Dinámica</h3>
+                <p>Especialistas en la transición de la imagen estática al video de alto impacto. Elevamos la identidad visual de su marca utilizando técnicas avanzadas de movimiento.</p>
             </div>
         </div>
 
-        <section class="contacto-box">
-            <h2>Hablemos de tu Proyecto</h2>
-            <form>
-                <input type="text" placeholder="Tu nombre">
-                <input type="email" placeholder="Correo electrónico">
-                <textarea rows="4" placeholder="Comentarios o propuestas para PDRMDS..."></textarea>
-                <button type="button" class="btn-enviar">ENVIAR AHORA</button>
-            </form>
+        <section class="featured-section">
+            <h2>Investigación Destacada: El Futuro Visual 2026</h2>
+            <p style="color: var(--texto-suave); font-size: 1.1rem;">
+                Nuestra unidad de investigación revela que el contenido en video dinámico genera un <strong>400% más de interacción</strong> que las imágenes estáticas. En PDRMDS, integramos la síntesis de video para maximizar la conversión de ventas de nuestros clientes.
+            </p>
+            <p>¿Tienes un proyecto en mente? Hablemos de cómo podemos escalarlo.</p>
+            <a href="#" class="cta-whatsapp">Contactar vía WhatsApp</a>
         </section>
     </div>
 
     <footer>
-        <p>© 2026 PDRMDS | Firma oficial de Pedro.</p>
+        <p>© 2026 PDRMDS | Firma Oficial de Pedro | Todos los derechos reservados.</p>
     </footer>
 
 </body>
