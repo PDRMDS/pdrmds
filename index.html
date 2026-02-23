@@ -30,8 +30,7 @@
         nav {
             background: var(--oscuro);
             padding: 1.2rem 5%;
-            display: flex;
-            justify-content: space-between;
+            display: flex;            justify-content: space-between;
             align-items: center;
             position: sticky;
             top: 0;
@@ -86,12 +85,19 @@
         .cta-whatsapp {
             background: #25D366;
             color: white;
-            padding: 15px 30px;
+            padding: 15px 35px;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
             display: inline-block;
-            margin-top: 20px;
+            margin-top: 25px;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .cta-whatsapp:hover {
+            background: #128C7E;
+            transform: scale(1.05);
         }
 
         footer { text-align: center; padding: 80px 20px; color: #64748b; font-size: 0.9rem; }
@@ -135,13 +141,18 @@
             <p style="color: var(--texto-suave); font-size: 1.1rem;">
                 Nuestra unidad de investigación revela que el contenido en video dinámico genera un <strong>400% más de interacción</strong> que las imágenes estáticas. En PDRMDS, integramos la síntesis de video para maximizar la conversión de ventas de nuestros clientes.
             </p>
-            <p>¿Tienes un proyecto en mente? Hablemos de cómo podemos escalarlo.</p>
-            <a href="#" class="cta-whatsapp">Contactar vía WhatsApp</a>
+            <p><strong>¿Tienes un proyecto en mente? Hablemos de cómo podemos escalarlo.</strong></p>
+            
+            <a href="https://wa.me/59162673789?text=Hola%20PDRMDS,%20vi%20tu%20sitio%20web%20y%20quisiera%20más%20información%20sobre%20tus%20servicios." 
+               class="cta-whatsapp" 
+               target="_blank">
+               Contactar vía WhatsApp
+            </a>
         </section>
     </div>
 
     <footer>
-        <p>© 2026 PDRMDS | Firma Oficial de Pedro | Todos los derechos reservados.</p>
+        <p>© 2026 PDRMDS | Firma Oficial de Pedro | Bolivia</p>
     </footer>
 
 </body>
